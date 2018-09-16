@@ -1,0 +1,56 @@
+.checkIn{
+  width:50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  height:auto;
+  background: white;
+  text-align: center;
+  font-family:  'Playfair Display', serif;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.inputCheckIn{
+  display:list-item;
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 30px;
+  border: 2px solid #dedede;
+}
+
+.inputCheckIn:hover{
+  transition: 1s;
+  border: 2px solid #262626;
+}
+
+.inputCheckIn:not(:hover) {
+  transition: 1s;
+  border: 2px solid #dedede;
+}
+
+.inputButton{
+  width: auto;
+  font-family:  'Playfair Display', serif;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #262626;
+  color: white;
+  border-style:solid;
+  border-color: #262626;
+  margin-top: calc(60px/2);
+}
+.inputButton:hover{
+  background-color: white;
+    transition: 1s;
+    color: black;
+}
+.inputButton:not(:hover){
+  background-color: #262626;
+    transition: 1s;
+    color: white;
+}

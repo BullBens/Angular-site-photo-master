@@ -1,0 +1,42 @@
+.homePage{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  height:auto;
+  background: white;
+  text-align: center;
+  font-family:  'Playfair Display', serif;
+}
+h3{
+  margin: 0;
+  padding-top: 20px;
+}
+.homePageFooter{
+  width: 100%;
+  font-size: 2em;
+  height: auto;
+  border-bottom: solid 2px;
+}
+
+.blockImagesSkills{
+  display: inline-block;
+  margin: 2%;
+}
+.homePageIcon{
+  width: 100%;
+}
+.img{
+  width: 80px;
+}
+
+.textImgBlock{
+  width: 74%;
+  margin-left: 13%;
+  font-size: 1.5em;
+  height: auto;
+  border-bottom: solid 2px;
+}
+.textDescription{
+  font-family:  'Playfair Display', serif;
+  padding-bottom: 50px;
+}
