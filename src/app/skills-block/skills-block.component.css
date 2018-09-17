@@ -1,16 +1,17 @@
-.user-block{
+.skills-block{
   position: absolute;
   width: 23%;
   height: 400px;
   background-color: white;
-  margin-left: 1%;
+  margin-right: 1%;
+  right: 0px;
   margin-top: 170px;
   color: black;
   text-align: center;
 }
-.user-block-element{
+.skills-block-element{
   width: 100%;
-  font-size: 30px;
+  font-size: 2em;
   height: auto;
   border-bottom: solid 2px;
 }
@@ -18,14 +19,14 @@ h5{
   margin: 0;
   padding-top: 35px;
 }
-.user-block-li{
+.skills-block-li{
   margin-bottom: 10px;
 }
-.user-block-li> a{
+.skills-block-li> a{
   text-decoration: none;
   color: #262626;
   font-size: 20px;
 }
-.user-block-li> a:hover{
+.skills-block-li> a:hover{
   color: black;
 }

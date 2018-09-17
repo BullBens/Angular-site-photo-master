@@ -35,8 +35,6 @@
   width: auto;
   height:120px;
   float: left;
-
-
 }
 h1{
   margin: 0;
@@ -48,7 +46,6 @@ h1{
   font-size: 20px;
   text-decoration: none;
   display: inline-block;
-  background-color: white;
   color: black;
   border-style:solid;
   border-color: white;
@@ -80,4 +77,12 @@ h1{
 .btnCheckingCheck {
   color: green;
   border-color: green;
+  background-color: green;
+}
+.logo{
+  position: absolute;
+  z-index:10;
+  width: 400px;
+  height: 100px;
+  color: black;
 }
