@@ -3,7 +3,6 @@
   height: calc(120px);
   background-color: black;
   color: white;
-  font-family:  'Playfair Display', serif;
   position:relative;
 }
 .label{
@@ -45,7 +44,6 @@ h1{
 }
 .btn{
   width: auto;
-  font-family:  'Playfair Display', serif;
   height: 50px;
   font-size: 20px;
   text-decoration: none;
@@ -63,7 +61,7 @@ h1{
     color: white;
 }
 .btn:not(:hover){
-  background-color: #black;
+  background-color: white;
   transition: 1s;
 }
 .btnLogin{

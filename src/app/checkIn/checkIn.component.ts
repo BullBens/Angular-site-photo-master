@@ -1,4 +1,5 @@
-import {Component} from "@angular/core"
+import {Component, Input} from "@angular/core"
+
 
 @Component({
   selector: 'app-checkIn',
@@ -6,5 +7,6 @@ import {Component} from "@angular/core"
   styleUrls: ['./checkIn.component.scss']
 })
 export class CheckInComponent {
+
 
 }
