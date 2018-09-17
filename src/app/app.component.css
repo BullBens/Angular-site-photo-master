@@ -73,3 +73,11 @@ h1{
 .showCheck{
   display: none;
 }
+.btnLoginCheck{
+  color: green;
+  border-color: green;
+}
+.btnCheckingCheck {
+  color: green;
+  border-color: green;
+}

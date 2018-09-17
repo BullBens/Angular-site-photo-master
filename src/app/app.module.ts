@@ -7,6 +7,7 @@ import {DownComponent} from './down/down.component';
 import {OurUserComponent} from './ourUsers/ourUser.component';
 import {LogInComponent} from './logIn/logIn.component';
 import {CheckInComponent} from './checkIn/checkIn.component';
+import { UserBlockComponent } from './user-block/user-block.component';
 
 
 @NgModule({
@@ -16,7 +17,9 @@ import {CheckInComponent} from './checkIn/checkIn.component';
     DownComponent,
     OurUserComponent,
     LogInComponent,
-    CheckInComponent
+    CheckInComponent,
+    UserBlockComponent,
+    UserBlockComponent,
   ],
   imports: [
     BrowserModule

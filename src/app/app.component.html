@@ -6,14 +6,15 @@
   <div class="footerNames">
     <h1>Free hobby</h1>
   </div>
+  <app-user-block></app-user-block>
   <div class="footerButtons">
-    <button class="btn btnLogin btnLoginCheck" type="button" name="button" (click)="showLogIn()">Войти</button>
-    <button class="btn btnCheckIn" type="button" name="button" (click)="showCheckIn()">Регистрация</button>
+    <button class="btn btnLogin" [ngClass]="{btnLoginCheck:btnLogCheck}" type="button"  name="button" (click)="showLogIn()">Войти</button>
+    <button class="btn btnCheckIn" [ngClass]="{btnCheckingCheck:btnCheckCheck}" type="button" name="button" (click)="showCheckIn()">Регистрация</button>
   </div>
 </div>
 
 <div [ngClass]="{showLog:!logVisib}">
-  <app-logIn>Загрузка...</app-logIn>
+  <app-logIn class="showAnimation"></app-logIn>
 </div>
 <div [ngClass]="{showCheck:!checkVisib}" >
   <app-checkIn>Загрузка...</app-checkIn>

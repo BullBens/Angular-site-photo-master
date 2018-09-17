@@ -1,0 +1,31 @@
+.user-block{
+  position: absolute;
+  width: 23%;
+  height: 400px;
+  background-color: white;
+  margin-left: 1%;
+  margin-top: 170px;
+  color: black;
+  text-align: center;
+}
+.user-block-element{
+  width: 100%;
+  font-size: 2em;
+  height: auto;
+  border-bottom: solid 2px;
+}
+h3{
+  margin: 0;
+  padding-top: 20px;
+}
+.user-block-li{
+  margin-bottom: 10px;
+}
+.user-block-li> a{
+  text-decoration: none;
+  color: #262626;
+  font-size: 20px;
+}
+.user-block-li> a:hover{
+  color: black;
+}
