@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  logVisib: boolean = false;
+  checkVisib: boolean = false;
+
+  showLogIn(): void {
+    this.logVisib = !this.logVisib;
+    this.checkVisib = false;
+  }
+
+  showCheckIn(): void {
+    this.checkVisib = !this.checkVisib;
+    this.logVisib = false;
+  }
 }

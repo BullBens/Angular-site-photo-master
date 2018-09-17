@@ -1,10 +1,22 @@
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-<app-footer></app-footer>
-<div ngClass="appLogIn"  ng-show="toggle">
-  <app-logIn></app-logIn>
+
+<div class="footer">
+  <div class="label">
+  </div>
+  <div class="footerNames">
+    <h1>Free hobby</h1>
+  </div>
+  <div class="footerButtons">
+    <button class="btn btnLogin btnLoginCheck" type="button" name="button" (click)="showLogIn()">Войти</button>
+    <button class="btn btnCheckIn" type="button" name="button" (click)="showCheckIn()">Регистрация</button>
+  </div>
 </div>
-<div ngClass="appCheckIn">
-  <app-checkIn></app-checkIn>
+
+<div [ngClass]="{showLog:!logVisib}">
+  <app-logIn>Загрузка...</app-logIn>
+</div>
+<div [ngClass]="{showCheck:!checkVisib}" >
+  <app-checkIn>Загрузка...</app-checkIn>
 </div>
 <app-homePage></app-homePage>
 
