@@ -9,6 +9,8 @@ import {LogInComponent} from './logIn/logIn.component';
 import {CheckInComponent} from './checkIn/checkIn.component';
 import { UserBlockComponent } from './user-block/user-block.component';
 import { SkillsBlockComponent } from './skills-block/skills-block.component';
+import { LoadingComponent } from './loading/loading.component';
+
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { SkillsBlockComponent } from './skills-block/skills-block.component';
     UserBlockComponent,
     UserBlockComponent,
     SkillsBlockComponent,
+    LoadingComponent,
+
   ],
   imports: [
     BrowserModule

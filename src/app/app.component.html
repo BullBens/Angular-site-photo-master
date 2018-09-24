@@ -1,6 +1,9 @@
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
-<div class="footer">
+
+<div class="footer"
+     [class.active] = "!isActive"
+     [class.hide] = "isActive">
   <div class="label">
   </div>
   <div class="footerNames">
@@ -20,9 +23,10 @@
   <app-logIn class="showAnimation"></app-logIn>
 </div>
 <div [ngClass]="{showCheck:!checkVisib}" >
-  <app-checkIn>Загрузка...</app-checkIn>
+  <app-checkIn></app-checkIn>
 </div>
 <app-homePage></app-homePage>
 
 <app-ourUser></app-ourUser>
 <app-down></app-down>
+<script type="text/javascript" src="jquery.js"></script>

@@ -1,12 +1,14 @@
-import {Component, Input} from '@angular/core';
+import {Component, HostListener, Input} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  animations: [
+
+  ],
 })
 export class AppComponent {
-
   logVisib: boolean = false;
   checkVisib: boolean = false;
   btnLogCheck: boolean = false;

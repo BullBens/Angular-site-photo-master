@@ -1,9 +1,11 @@
 .footer{
   width: 100%;
   height: calc(120px);
-  background-color: black;
+  background-color: rgba(0, 0, 0, .9);
+  /*opacity: 0.5;*/
   color: white;
-  position:relative;
+  position: fixed;
+  top: 0px;
 }
 .label{
   width:40px;

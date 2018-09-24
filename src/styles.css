@@ -5,11 +5,16 @@
 }
 body{
   background-color: #dedede;
+  margin-top: 170px;
 }
 .gray{
   width: 100%;
-  height: 400px;
+  height: 100%;
+  background-size: 100%;
   background-color: #6b6a6a;
-  position:absolute;
+  position:fixed;
+  top: 0;
   z-index:-1;
+  background: url("assets/images/girls-photo.jpg") no-repeat;
+  /*background-image: src = "assets/images/girls-photo.jpg";*/
 }
